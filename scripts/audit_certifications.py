@@ -17,8 +17,7 @@ from dataclasses import dataclass
 from itertools import combinations
 from pathlib import Path
 from typing import Any
-
-
+#from commit check
 ROOT = Path(__file__).resolve().parent.parent
 CERT_SKILL_PATH = ROOT / "skills" / "claude-certification" / "SKILL.md"
 CLAUDE_CERT_SKILL_PATH = ROOT / ".claude" / "skills" / "claude-certification" / "SKILL.md"
